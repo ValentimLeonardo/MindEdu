@@ -1,0 +1,8 @@
+img {
+    width: 20%; /* Reduz para 50% do tamanho original */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 300px; /* Define um limite máximo de largura */
+}
+body{
+    background-color: #048080;
+}
