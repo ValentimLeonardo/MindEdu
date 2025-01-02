@@ -1,0 +1,12 @@
+input{
+    width: 100%;
+    height: 50%;
+    font-size: 1.5rem;
+    border-radius: 4%;
+    border-color: aquamarine;
+}
+.container{
+    width: 60%;
+    border-radius: 4%;
+    height: 50%;
+}
