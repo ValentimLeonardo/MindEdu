@@ -1,4 +1,3 @@
-import React from "react";
 import "./homePage.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navegar from "../../Components/Nav/nav";

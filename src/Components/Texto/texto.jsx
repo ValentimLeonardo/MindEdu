@@ -1,4 +1,3 @@
-import React from 'react';
 import pdfFile from './Apresentação-ihc.pdf'; // Ajuste o caminho conforme necessário
 
 function PdfViewer() {
