@@ -1,0 +1,23 @@
+a{
+    color: white;
+}
+/* Estilização do botão de upload de arquivo */
+input[type="file"] {
+    display: none; /* Esconde o input original */
+  }
+  
+  .custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px; /* Arredondamento */
+    background-color: black; /* Cor de fundo preta */
+    color: white; /* Cor do texto branca */
+    text-align: center;
+    border: 1px solid black; /* Borda preta opcional */
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #333; /* Cor de fundo ao passar o mouse */
+  }
+  
