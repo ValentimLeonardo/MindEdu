@@ -18,9 +18,6 @@ const Navegar = () =>{
                         <li className="nav-item">
                             <a className="nav-link active" href="#">Meus Cronogramas</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link active" href="#">Revisão</a>
-                        </li>
                     </ul>
                     <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
