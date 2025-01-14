@@ -3,7 +3,8 @@ body{
     background-color: #048080;
 }
 .custom-btn{
-    color: black;
+    font-family: "Roboto", serif;
+    font-style: normal;
     font-size: 0.80rem;
     width: 20%;
     border-radius: 6%;
@@ -19,7 +20,7 @@ input{
     font-size: 1.2rem;
     border-radius: 4%;
     border-color: aquamarine;
-    font-family: 'Open sans', serif;
+    font-family: "Roboto", serif;
 }
 a{
     text-decoration: none;
