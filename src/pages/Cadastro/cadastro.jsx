@@ -1,5 +1,6 @@
 import "./cadastro.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom";
 
 const Cadastro = () =>{
     return(
@@ -36,7 +37,8 @@ const Cadastro = () =>{
                         <option value="2">2º ano</option>
                         <option value="3">3º ano</option> 
                     </select>
-               </form>       
+               </form>
+            <button className="custom-btn mb-3"><Link to={"/"}>Salvar</Link></button>   
         </div>
     )
 }

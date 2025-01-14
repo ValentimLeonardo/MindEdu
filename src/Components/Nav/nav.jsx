@@ -1,5 +1,6 @@
 import "./nav.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom";
 
 const Navegar = () =>{
     return(
@@ -10,13 +11,16 @@ const Navegar = () =>{
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a className="navbar-brand" href="#">Perfil</a>
+                    <Link className="navbar-brand" to={"/perfil"}>Perfil</Link>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Cadastro</a>
+                            <Link className="nav-link active" aria-current="page" to={"/cadastro"}>Cadastro</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">Meus Cronogramas</a>
+                            <Link className="nav-link active" to={"/cronograma"}>Meus Cronogramas</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link active" to={"/"}>Sair</Link>
                         </li>
                     </ul>
                     <form className="d-flex" role="search">

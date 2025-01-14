@@ -3,6 +3,7 @@ body{
     background-color: #048080;
 }
 .custom-btn{
+    color: black;
     font-size: 0.80rem;
     width: 20%;
     border-radius: 6%;

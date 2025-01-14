@@ -1,5 +1,6 @@
 import "./login.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom";
 const Login = () =>{
     return(
         
@@ -16,8 +17,8 @@ const Login = () =>{
                     <input type="password" placeholder="Senha" />
                 </div>
             </form>
-            <button className="custom-btn mb-3">Acessar</button>   
-            <a href="." className="mb-3">Não possuo Cadastro</a>    
+            <button className="custom-btn mb-3"><Link to={"/homePage"}>Acessar</Link></button>   
+            <Link href="." className="mb-3" to={"/cadastro"}>Não possuo Cadastro</Link>    
         </div>
     )
 }
