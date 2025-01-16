@@ -1,12 +1,15 @@
-function AudioPlayer() {
-  return (
-    <div>
-      <audio controls>
-        <source src="./audio.mp3" type="audio/mpeg" />
-        Seu navegador não suporta o elemento de áudio.
-      </audio>
-    </div>
-  );
-}
+const AudioButton = () => {
+  const handleClick = () => {
+    const audioPath = '/src/assets/audio.mp3';
+    window.location.href = audioPath;
+  };
 
-export default AudioPlayer;
+  return (
+    <button className="btn btn-primary" onClick={handleClick}>
+      Ouvir Áudio
+    </button>
+  );
+};
+
+export default AudioButton;
+

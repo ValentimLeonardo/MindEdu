@@ -1,8 +1,10 @@
+import { Link} from "react-router-dom";
 import Navegar from "../../Components/Nav/nav";
 import Rodape from "../../Components/Rodape/rodape";
 import "./cronograma.css";
 import { Button } from 'react-bootstrap';
 import { FaPlus } from 'react-icons/fa';
+
 
 
 const Cronograma = () =>{
@@ -18,7 +20,7 @@ const Cronograma = () =>{
                     <div className="col-6">
                         <div className="p-4 bg-white border rounded text-center h-100">
                             <Button variant="success" className="w-100 h-100">
-                                <FaPlus /> Adicionar
+                                <FaPlus /><Link to={'/novo'}>Adicionar</Link>
                             </Button>
                         </div>
                     </div>

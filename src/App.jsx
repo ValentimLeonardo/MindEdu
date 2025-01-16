@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cadastro from "./pages/Cadastro/cadastro";
 import Perfil from "./pages/Perfil/perfil";
 import Cronograma from './pages/Cronograma/Cronograma';
-
+import Novo from "./Components/Novo_Cronograma/novo";
 
 function App() {
   return(
@@ -17,6 +17,7 @@ function App() {
             <Route path='/cadastro' element={<Cadastro/>}/>
             <Route path='/cronograma' element={<Cronograma/>}/>
             <Route path='/perfil' element={<Perfil/>}/>
+            <Route path='/novo' element={<Novo/>}/>
         </Routes>
       </BrowserRouter>
     </div>
