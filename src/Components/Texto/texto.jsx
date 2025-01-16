@@ -1,5 +1,6 @@
 import pdfFile from './Apresentação-ihc.pdf'; // Ajuste o caminho conforme necessário
 
+
 function PdfViewer() {
   const openPdf = () => {
     window.open(pdfFile, '_blank');
@@ -7,7 +8,7 @@ function PdfViewer() {
 
   return (
     <div>
-      <button onClick={openPdf}>
+      <button onClick={openPdf} className='btn btn-primary'>
         Abrir PDF
       </button>
     </div>
