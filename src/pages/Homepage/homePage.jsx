@@ -32,21 +32,21 @@ const HomePage = () => {
           </div>
         </div>
         <div className="container text-center my-5">
-          <h2>Meu Título Centralizado</h2>
+          <h2>Meus Cronogramas</h2>
           <div className="row mt-4">
             <div className="col-md-4 mb-3">
               <div className="p-3 bg-white border rounded shadow">
-                Conteúdo da Div 1
+                Cronograma 1
               </div>
             </div>
             <div className="col-md-4 mb-3">
               <div className="p-3 bg-white border rounded shadow">
-                Conteúdo da Div 2
+                Cronograma 2
               </div>
             </div>
             <div className="col-md-4 mb-3">
               <div className="p-3 bg-white border rounded shadow">
-                Conteúdo da Div 3
+                Cronograma 3    
               </div>
             </div>
           </div>
